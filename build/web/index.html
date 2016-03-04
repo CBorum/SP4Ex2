@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <title>JSP Page</title>
+        <style>
+            /* #test {
+             border: 2px solid black;
+             }*/
+            #container{
+                width: 226px;
+                height: 274px;
+                border: 3px solid blue;
+                margin: auto
+            }
+            .t1, .t4{
+                border: 1px solid black;
+                height: 48px;
+                margin-left: 3px;
+                margin-top: 3px;
+                display: inline-block;
+                text-align: center;
+                line-height: 48px;
+            }
+            .t1{
+                width: 48px;
+            }
+            .t4{
+                width: 219px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1>Hello World!</h1>
+        <div>div1</div>
+        <div>div2</div>
+        <div>div3</div>
+        <div class="container">
+
+            <table class="table">
+                <tbody id="table">
+
+                </tbody>
+            </table>
+
+            <div id="div1" style="height: 100px; width: 100px; background-color: black">Div 1</div>
+            <div id="div2" style="height: 100px; width: 100px; background-color: yellow">Div 2</div>
+            <div id="div3" style="height: 100px; width: 100px; background-color: purple">Div 3</div>
+
+            <div id="div4" style="height: 200px; width: 200px; background-color: green"></div>
+            <div id="div5" style="height: 200px; width: 200px; background-color: magenta"></div>
+            <div id="div6" style="height: 200px; width: 200px; background-color: red; font-size: 50px"></div>
+
+            <br>
+
+            <form action="#" onsubmit="return processForm(this)">
+                <label>a</label>
+                <input type="text" name="tInput" id="tInput">
+                <br>
+                <label>b</label>
+                <input type="radio" name="rInput">
+                <label>c</label>
+                <input type="radio" name="rInput">
+                <label>d</label>
+                <input type="radio" name="rInput">
+                <br>
+                <label>e</label>
+                <input type="checkbox" name="cInput">
+                <label>f</label>
+                <input type="checkbox" name="cInput">
+                <label>g</label>
+                <input type="checkbox" name="cInput">
+                <br>
+                <input type="submit">
+            </form>
+
+            <table class="table">
+                <tbody id="tableForForm">
+                    <tr>
+                        <th>a</th>
+                        <th>b</th>
+                        <th>c</th>
+                        <th>d</th>
+                        <th>e</th>
+                        <th>f</th>
+                        <th>g</th>
+                    </tr>
+                </tbody>
+            </table>
+
+            <ul>
+                <li>Lars</li>
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+                <li>D</li>
+                <li>E</li>
+                <li>F</li>
+                <li>G</li>
+                <li>H</li>
+                <li>1234</li>
+            </ul>
+
+            <div id="container">
+                <div id="display" class="t4"></div>
+
+                <div id="seven" class="t1">7</div>
+                <div id="eight" class="t1">8</div>
+                <div id="nine" class="t1">9</div>
+                <div id="divide" class="t1">/</div>
+
+                <div id="four" class="t1">4</div>
+                <div id="five" class="t1">5</div>
+                <div id="six" class="t1">6</div>
+                <div id="multiply" class="t1">*</div>
+
+                <div id="one" class="t1">1</div>
+                <div id="two" class="t1">2</div>
+                <div id="three" class="t1">3</div>
+                <div id="minus" class="t1">-</div>
+
+                <div id="zero" class="t1">0</div>
+                <div id="comma" class="t1">,</div>
+                <div id="plus" class="t1">+</div>
+                <div id="equal" class="t1">=</div>
+
+            </div>
+
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
